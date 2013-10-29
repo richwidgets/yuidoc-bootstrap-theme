@@ -21,7 +21,7 @@ module.exports = {
             if(i > 0) {
                 ret += ', ';
             }
-            ret += "\"" + 'classes/' + classes[i].displayName + "\"";
+            ret += "\"" + 'api/classes/' + classes[i].displayName + "\"";
         }
 
         if(ret.length > 0 && modules.length > 0) {
@@ -32,7 +32,7 @@ module.exports = {
             if(j > 0) {
                 ret += ', ';
             }
-            ret += "\"" + 'modules/' + modules[j].displayName + "\"";
+            ret += "\"" + 'api/modules/' + modules[j].displayName + "\"";
         }
 
         return ret;
